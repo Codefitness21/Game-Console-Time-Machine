@@ -16,7 +16,7 @@ function gameAtari() {
 
 function gameNintendo() {
   document.querySelector("body").style.backgroundImage =
-    "url(https://i.imgur.com/sgGWyBE.gif)";
+    "url(https://i.gifer.com/wfr.gif)";
   document.querySelector("body").style.backgroundSize = "cover";
   document.querySelector("body").style.backgroundRepeat = "no-repeat";
   document.querySelector("body").style.backgroundPosition = "center";
