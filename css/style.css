@@ -1,0 +1,60 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background-image: url('https://www.azutura.com/media/catalog/product/cache/52/image/650x/040ec09b1e35df139433887a97daa66f/W/S/WS-45699_WP.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1, h2{
+  text-align: center;
+  color: rgb(81, 246, 5);
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 15%;
+  border: 3px solid black;
+  /* margin: 0 auto; */
+  list-style: none;
+  padding: 0;
+}
+
+ img{
+  width: 50%;
+  margin: 0 auto;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#atari, #supernin, #sega{
+  background: rgb(0, 0, 0);
+}
+#nintendo, #nin64, #nintendowii, #xbox {
+  background: rgb(255, 255, 255);
+}
+
+#playstation {
+  background: rgb(35, 21, 36)
+}
